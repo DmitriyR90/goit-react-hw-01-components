@@ -4,7 +4,6 @@ export const UserCard = styled.div`
   width: 250px;
   background-color: white;
   margin: 16px 0 0 16px;
-  //   outline: 2px solid red;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 8px;
@@ -21,7 +20,6 @@ export const Avatar = styled.img`
   border: 1px solid #afb1b8;
   width: 120px;
   border-radius: 50%;
-  //   outline: 1px solid green;
 `;
 
 export const Username = styled.p`
@@ -47,7 +45,6 @@ export const Stats = styled.ul`
 
   list-style: none;
   justify-content: space-around;
-  /* gap: 16px; */
   margin: 0;
   padding: 0;
   background-color: #ebebeb;
@@ -62,7 +59,7 @@ export const StatsList = styled.li`
   height: 80px;
   padding: 8px;
   justify-content: center;
-  border: 1px solid #afb1b8;
+  border: 0.5px solid #afb1b8;
   &:first-child {
     border-radius: 0 0 0 8px;
   }
