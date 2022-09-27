@@ -3,7 +3,9 @@ import styled from 'styled-components';
 export const UserCard = styled.div`
   width: 250px;
   background-color: white;
-  margin: 16px 0 0 16px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 8px;

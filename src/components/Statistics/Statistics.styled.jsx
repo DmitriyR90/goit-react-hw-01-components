@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  margin: 16px 0 0 16px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fff;
   width: 250px;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
