@@ -12,8 +12,7 @@ import {
   Quantity,
 } from './Profile.styled';
 
-export const Profile = ({ user }) => {
-  const { username, tag, location, avatar, stats } = user;
+export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <UserCard>
       <Description>
